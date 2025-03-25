@@ -1,0 +1,89 @@
+.PrincipalRegistro{
+    background-color: white;
+    width: 100%;
+    height: 530px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Registro{
+    background: linear-gradient(black red);
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 320px;
+    height: 500px;
+    box-shadow: 5px 5px 5px rgb(73, 25, 25);
+    animation-name: color;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+
+@keyframes color{
+    0%{
+        background: linear-gradient(rgb(143, 41, 41), rgb(92, 84, 84));
+        position: absolute;
+        left: 700px;
+    }
+
+    25%{
+        background: linear-gradient(rgb(105, 20, 20), rgb(92, 84, 84));
+        position: absolute;
+        left: 800px;
+    }
+
+    50%{
+        background: linear-gradient(rgb(102, 8, 8), rgb(92, 84, 84));
+        position: absolute;
+        left: 900px;
+    }
+
+    100%{
+        background: linear-gradient(rgb(73, 4, 4), rgb(92, 84, 84));
+        position: absolute;
+        left: 800px;
+    }
+}
+
+.LogoRegistro{
+    border-radius: 45px 45px 45px 45px;
+    position: relative;
+    left: 110px;
+    top: 15px;
+}
+.CajaTexto{
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    font-family: Berlin Sans FB;
+    background-color: rgb(255, 196, 196);
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    border-radius: 15px 15px 15px 15px;
+    text-align: center;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.BotonRegistro{
+    width: 150px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-family: Berlin Sans FB;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 87px;
+}
+
+.BotonRegistro:hover{
+    background-color: rgb(94, 9, 9);
+}

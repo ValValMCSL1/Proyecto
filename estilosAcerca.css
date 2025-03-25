@@ -1,0 +1,89 @@
+.PrincipalAcerca{
+    background-color: white;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Foto{
+    width: 400px;
+    height: 450px;
+    border: 1px solid lightgrey;
+}
+
+.ContenidoTexto{
+    width: 330px;
+    height: 450px;
+    border: 1px lightgrey;
+    margin-left: 10px;
+}
+
+.Equipos{
+    font-size: 40px;
+    padding: 10px;
+    color: black;
+    font-family: Copperplate Gothic Bold;
+    margin-left: 10px;
+    text-shadow: 4px 4px 4px rgb(92, 8, 8);
+}
+.Williams{
+    font-size: 20px;
+    padding: 5px;
+    color: blue;
+}
+
+.RacingBulls{
+    font-size: 20px;
+    padding: 5px;
+    color: rgb(70, 126, 139);
+}
+
+.Haas{
+    font-size: 20px;
+    padding: 5px;
+    color: gray;
+}
+
+.RedBull{
+    font-size: 20px;
+    padding: 5px;
+    color: rgb(62, 62, 126);
+}
+
+.Ferrari{
+    font-size: 20px;
+    padding: 5px;
+    color: darkred;
+}
+
+.Mercedes{
+    font-size: 20px;
+    padding: 5px;
+    color: rgb(34, 68, 68);
+}
+
+.Alpine{
+    font-size: 20px;
+    padding: 5px;
+    color: pink;
+}
+
+.KickSauber{
+    font-size: 20px;
+    padding: 5px;
+    color: limegreen;
+}
+
+.McLaren{
+    font-size: 20px;
+    padding: 5px;
+    color: orange;
+}
+
+.AstonMartin{
+    font-size: 20px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+}

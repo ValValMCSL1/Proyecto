@@ -1,0 +1,84 @@
+.body{
+    background: linear-gradient(90deg, rgb(10, 9, 9), rgb(112, 20, 20));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.Ingresar{
+    background: linear-gradient(black red);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    width: 320px;
+    height: 500px;
+    box-shadow: 5px 5px 5px 5px rgb(255, 255, 255);
+}
+
+.Volver{
+    width: 321px;
+    height: 50px;
+    background-color: blanchedalmond;
+    border-radius: 50px 50px 1px 1px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flecha{
+ margin-right: 50px;
+}
+
+
+.LogoIngresar{
+    border-radius: 45px 45px 45px 45px;
+    position: relative;
+    left: 110px;
+    top: 15px;
+}
+
+
+.CajaTexto{
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    font-family: Berlin Sans FB;
+    background-color: rgb(255, 196, 196);
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    border-radius: 15px 15px 15px 15px;
+    text-align: center;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.BotonIngresar{
+    width: 150px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-family: Berlin Sans FB;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 87px;
+}
+
+.BotonIngresar:hover{
+    background-color: rgb(94, 9, 9);
+}
+
+.botonregistro{
+    font-size: 15px;
+    color: rgb(34, 68, 68);
+    width: 50px;
+    height: 50px;
+     margin-right: 40px;
+     margin-top: 30px;
+}
