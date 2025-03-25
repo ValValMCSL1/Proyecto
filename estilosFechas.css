@@ -1,0 +1,35 @@
+.PrincipalFechas{
+    background-color: white;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    }
+    
+    
+.ContenedorFechas{
+    width: 800px;
+    height: 500px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+     flex-wrap: wrap;
+}
+
+.ContenidoTextoFechas{
+    width: 330px;
+    height: 450px;
+    border: 1px lightgrey;
+    margin-left: 10px;
+}
+
+.Fechas{
+    font-size: 60px;
+    padding: 10px;
+    color: black;
+    font-family: Copperplate Gothic Bold;
+    margin-left: 10px;
+    text-shadow: 4px 4px 4px rgb(92, 8, 8);
+}
